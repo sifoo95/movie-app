@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+/************ANIME CARD ******************/
+.anime-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.anime {
+  background-color: #ffffff9d;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  margin: 1rem;
+  width: 390px;
+}
+.anime img {
+  max-width: 100%;
+}
+.anime-info {
+  padding: 1rem;
+}
+.anime-info h2 {
+  font-size: 25px;
+  margin-bottom: 4px;
+}
+
+.anime:hover .anime-description {
+  transform: translateY(0%);
+}
+.anime-description p {
+  font-size: 15px;
+}
+
+/************** HEADER ******************/
+.header {
+  background-color: gray;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.header input {
+  width: 180px;
+  height: 35px;
+  text-align: center;
+  padding: 4px 1px;
+}
+
+/************* ADD+MODAL ****************/
+.addBtn {
+  color: rgba(0, 0, 0, 0.95);
+  text-align: center;
+  font-size: 14px;
+}
+.pop-up-modal input {
+  width: 240px;
+  height: 32px;
+  text-align: center;
+  padding: 4px 1px;
+  margin: 16px 0;
+}
+.pop-up-modal label {
+  font-weight: 500;
+  font-size: 16px;
+}
+.pop-up-modal textarea {
+  text-align: center;
+  padding: 4px 1px;
+  margin: 16px 0;
+}
